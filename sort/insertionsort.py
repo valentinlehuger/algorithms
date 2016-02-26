@@ -21,7 +21,7 @@ def insertionSort(l):
         
         pos = i
         n = l[i]
-        while pos > 0 and l[pos - 1] >= n:
+        while pos > 0 and l[pos - 1] > n:
             l[pos] = l[pos - 1]
             pos -= 1
         l[pos] = n

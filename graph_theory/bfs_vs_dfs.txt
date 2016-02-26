@@ -1,0 +1,8 @@
+BFS Breadth First Search
+DFS Depth First Search
+
+BFS and DFS look for all child node from a source node in a graph.
+The difference is that the BFS crawl the graph horizontally and
+the DFS vertically.
+In code, the difference is that at a source node, the BFS add the child nodes in a FIFO
+and the DFS in a LIFO and goes in recursive in the next node in their queue.
